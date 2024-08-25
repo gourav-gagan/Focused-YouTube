@@ -27,7 +27,7 @@ const SETTINGS = {
   hideInfiniteScroll: false,
 
   /// video player ///
-  skipAds: true,
+  skipAds: false,
   hideLiveChat: false,
   hideRelatedVideos: true,
   hidePlayNextButton: false,
