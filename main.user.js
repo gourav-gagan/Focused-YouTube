@@ -18,26 +18,26 @@
 const SETTINGS = {
   /// homepage redirect ///
   // redirectHomepage Options: 'wl', 'subs', 'lib', false
-  redirectHomepage: 'wl',
-  hideHomepageButton: true,
+  redirectHomepage: 'false',
+  hideHomepageButton: false,
 
   /// homepage suggestions ///
   hideAllSuggestions: false,
-  hideAllButOneRow: true,
-  hideInfiniteScroll: true,
+  hideAllButOneRow: false,
+  hideInfiniteScroll: false,
 
   /// video player ///
   skipAds: true,
-  hideLiveChat: true,
+  hideLiveChat: false,
   hideRelatedVideos: true,
-  hidePlayNextButton: true,
-  hidePlayPreviousButton: true,
-  hideMiniPlayerButton: true,
-  disablePlaylistAutoPlay: true,
+  hidePlayNextButton: false,
+  hidePlayPreviousButton: false,
+  hideMiniPlayerButton: false,
+  disablePlaylistAutoPlay: false,
 
   /// shorts ///
-  hideShorts: true,
-  redirectShortsPlayer: true,
+  hideShorts: false,
+  redirectShortsPlayer: false,
 
   /// misc ///
   hideSearchButton: false,
